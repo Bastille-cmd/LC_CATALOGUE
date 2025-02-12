@@ -22,10 +22,8 @@ class Solution {
                 {
                     if(ar[x]<i) ar[x]=-1;
                 }
-                // i=j;
             }
         }
-        System.out.println(max);
         return Math.max(max,n-i);
     }
 }
